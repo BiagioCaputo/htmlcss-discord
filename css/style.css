@@ -52,32 +52,30 @@ p{
     color:black;
     background-color: white;
     padding: 10px 15px;
+    font-size: 22px;
 }
 
 .button-black{
     color:white;
     background-color: black;
     padding: 10px 15px;
+    font-size: 22px;
 }
 
 .button-blu{
     color:white;
     background-color:dodgerblue;
     padding: 10px 15px;
+    font-size: 22px;
 }
 
 /*Header*/
 
 header{
     background-image: url(../img/img/jumbo.png);
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
-}
-
-.container_jumbotron{
-    background-size: 100%;
-    background-repeat: no-repeat;
-    min-height:400px;
+    background-position: left;
 }
 
 .navigation_bar{
@@ -100,6 +98,8 @@ header{
     flex-grow: 1;
     display: flex;
     justify-content: space-between;
+    padding: 20px;
+    font-size: 24px;
 
 
 }
