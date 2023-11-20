@@ -69,35 +69,34 @@ header{
     background-repeat: no-repeat;
 }
 
-.container_nb{
-    min-height:60px;
-}
-
-.container_header_inf{
+.container_jumbotron{
     background-size: 100%;
     background-repeat: no-repeat;
     min-height:400px;
 }
 
 .navigation_bar{
+    min-height: 80px;
     display:flex;
     flex-direction: row;
     margin:0 20%;
     max-width: 80%;
-    padding: 15px;
-    justify-content: space-between;
+    align-items: center;
 }
 
 .navigation_bar > *{
-    background-color:yellow;
-    border: 1px solid black;
     flex-basis: 20%;
-    height: 33px;
+    height: 40px;
+    padding: 10px 0;
+    
 }
 
 .nav_menu{
     flex-grow: 1;
-    text-align: center;
+    display: flex;
+    justify-content: space-between;
+
+
 }
 
 .nav_button{
@@ -105,7 +104,7 @@ header{
 }
 
 
-.immagine_header{
+.jumbotron{
     display: flex;
     flex-direction: row;
     max-width: 80%;
@@ -114,13 +113,13 @@ header{
     padding: 25px;
 }
 
-.imagine_header_element{
+.jumbotron_element{
     min-height: 350px;
     width: 50%;
     
 }
 
-.imagine_header_element >h1 {
+.jumbotron_element >h1 {
     color:white;
     text-align: center;
     margin: 30px 0;
@@ -128,7 +127,7 @@ header{
 }
 
 
-.imagine_header_element >p {
+.jumbotron_element >p {
     color:white;
     text-align: center;
     font-size: 0.94rem;
