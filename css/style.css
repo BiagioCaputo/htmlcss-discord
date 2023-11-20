@@ -7,7 +7,7 @@
 
 /*Generali*/
 .body{
-    font-family:Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family:Arial, Helvetica, sans-serif;
 }
 
 a{
@@ -236,7 +236,7 @@ header{
 
 .li_blu{
     min-height: 400px;
-    width: 44%;
+    width: 40%;
 }
 
 select{
@@ -245,11 +245,18 @@ select{
     border-style: none;
 }
 
-.li_red{
-    min-height: 400px;
-    width: 14%;
-    line-height: 2.5;
+.li_red {
+    flex-flow: column;
+    flex-wrap: wrap;
+    gap:10px;
+    width:15%;
+    
 }
+   
+
+
+
+
 
 .container_footer_top h3{
     color:dodgerblue;
