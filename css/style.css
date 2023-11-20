@@ -6,7 +6,14 @@
 }
 
 /*Generali*/
+.body{
+    font-family: Arial, Helvetica, sans-serif;
+}
 
+a{
+    color:white;
+    text-decoration: none;
+}
 
 /*utilities*/
 
@@ -22,25 +29,48 @@
 .border{
     border:2px dashed black;
 }
+
+.radius{
+    border-radius: 20px;
+}
+
+.button-white{
+    color:black;
+    background-color: white;
+    padding: 10px 15px;
+}
+
+.button-black{
+    color:white;
+    background-color: black;
+    padding: 10px 15px;
+}
+
 /*Header*/
 
+header{
+    background-image: url(../img/img/jumbo.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
 .container_nb{
-    background-color: lightblue;
     min-height:60px;
 }
 
 .container_header_inf{
-    background-color: blue;
+    background-size: 100%;
+    background-repeat: no-repeat;
     min-height:400px;
 }
 
 .navigation_bar{
     display:flex;
     flex-direction: row;
-    margin:0 20%;
+    margin:0 10%;
     max-width: 80%;
-    justify-content: center;
     padding: 15px;
+    justify-content: space-between;
 }
 
 .nav_i{
@@ -49,21 +79,51 @@
     flex-basis: 30%;
     height: 33px;
 }
+
+.nav_i{
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+.nav_i >a{
+    flex-basis: 20%;
+}
+
+
 .immagine_header{
     display: flex;
     flex-direction: row;
     max-width: 80%;
-    margin:0 20%;
+    margin:0 10%;
     justify-content: center;
     padding: 25px;
 }
 
 .imagine_header_element{
-    background-color: pink;
-    border: 1px solid black;
     min-height: 350px;
     width: 50%;
     
+}
+
+.imagine_header_element >h1 {
+    color:white;
+    text-align: center;
+    margin: 30px 0;
+    font-size: 2.5rem;
+}
+
+
+.imagine_header_element >p {
+    color:white;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.download-apertura-discord{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap:30px;
+
 }
 
 /*main*/
