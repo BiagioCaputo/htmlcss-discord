@@ -7,7 +7,7 @@
 
 /*Generali*/
 .body{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 a{
@@ -18,6 +18,11 @@ a{
 h2{
     font-size:2rem;
     margin-bottom: 20px;
+}
+
+i{
+    color:white;
+    
 }
 /*utilities*/
 
@@ -227,25 +232,32 @@ header{
     display:flex;
     flex-direction: row;
     justify-content: center;
-    border: 1px solid white;
 }
 
 .li_blu{
-    background-color:blue;
-    border: 1px solid black;
     min-height: 400px;
     width: 44%;
 }
 
+select{
+    color:white;
+    background-color:rgb(32, 32, 32) ;
+    border-style: none;
+}
+
 .li_red{
-    background-color:red;
-    border: 1px solid black;
     min-height: 400px;
     width: 14%;
     line-height: 2.5;
 }
 
-.container_footer_top h3,h4{
+.container_footer_top h3{
+    color:dodgerblue;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+.container_footer_top h4{
     color:dodgerblue;
 }
 
@@ -254,13 +266,18 @@ header{
     
 }
 
+.scelta-lingua{
+    margin-bottom: 30px; 
+}
 
-
+.partner{
+    gap:20px;
+}
 
 .container_footer_bot{
     background-color:rgb(32, 32, 32);
     min-height: 90px;
-    border-top: 1px solid rgb(182, 175, 175);
+    border-top: 1px solid rgb(155, 146, 146);
     padding: 30px 0;
 }
 
