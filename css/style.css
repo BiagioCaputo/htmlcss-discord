@@ -69,6 +69,9 @@ p{
     font-size: 22px;
 }
 
+.ml-1{
+    margin-left: 1rem;
+}
 /*Header*/
 
 header{
@@ -114,13 +117,14 @@ header{
     flex-direction: row;
     max-width: 80%;
     margin:0 10%;
+    padding: 60px 0;
     justify-content: center;
-    padding: 25px;
+    align-items: center;
 }
 
 .jumbotron_element{
-    min-height: 350px;
     width: 50%;
+    text-align: center;
     
 }
 
@@ -136,15 +140,10 @@ header{
     color:white;
     text-align: center;
     font-size: 24px;
+    margin-bottom: 30px;
+    line-height: 32px;
 }
 
-.download-apertura-discord{
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-    gap:30px;
-
-}
 
 /*main*/
 
@@ -220,6 +219,10 @@ header{
     line-height: 2.5;
 }
 
+main img{
+    max-width: 100%;
+    height: auto;
+}
 /*footer*/
 
 .container_footer_top{
@@ -279,6 +282,7 @@ select{
 .scelta-lingua{
     margin-bottom: 30px; 
 }
+
 
 .partner{
     gap:20px;
